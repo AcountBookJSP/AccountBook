@@ -40,3 +40,20 @@ insert into tblProperty (seq, cash) values (10, 1000000);
 insert into tblDepositWithdrawalStatus (seq, status) values (1, '입금');
 insert into tblDepositWithdrawalStatus (seq, status) values (2, '출금');
 
+-- 압박 강도 tblCompressionIntensity
+INSERT INTO tblCompressionintensity (seq, intensity) VALUES ('1', '하');
+INSERT INTO tblCompressionintensity (seq, intensity) VALUES ('2', '중');
+INSERT INTO tblCompressionintensity (seq, intensity) VALUES ('3', '상');
+
+-- 금지어 tblBanWord
+INSERT INTO tblBanWord (seq, content) VALUES ('1', '2중대');
+INSERT INTO tblBanWord (seq, content) VALUES ('2', '3일한');
+INSERT INTO tblBanWord (seq, content) VALUES ('3', 'SUCKSEX');
+INSERT INTO tblBanWord (seq, content) VALUES ('4', '가카');
+INSERT INTO tblBanWord (seq, content) VALUES ('5', '간민정음');
+INSERT INTO tblBanWord (seq, content) VALUES ('6', '간철수');
+INSERT INTO tblBanWord (seq, content) VALUES ('7', '갓치');
+INSERT INTO tblBanWord (seq, content) VALUES ('8', '갓카');
+INSERT INTO tblBanWord (seq, content) VALUES ('9', '강된장남');
+INSERT INTO tblBanWord (seq, content) VALUES ('10', '개독교');
+
